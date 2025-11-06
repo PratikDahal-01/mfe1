@@ -10,6 +10,7 @@ module.exports = withModuleFederationPlugin({
   },
 }, {
   output: {
+    path: './dist',
     publicPath: 'auto',
     uniqueName: 'mfe1'
   }
