@@ -10,6 +10,7 @@ module.exports = withModuleFederationPlugin({
   },
 }, {
   output: {
-    publicPath: 'auto'
+    publicPath: 'auto',
+    uniqueName: 'mfe1'
   }
 });
